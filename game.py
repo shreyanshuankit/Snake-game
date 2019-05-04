@@ -12,9 +12,6 @@ wn.bgcolor("black")
 wn.setup(width=600,height=660)
 wn.tracer(0)
 
-turtle.register_shape("head.gif")
-turtle.register_shape("body.gif")
-
 game_over = turtle.Turtle()
 game_over.speed(5)
 game_over.penup()
